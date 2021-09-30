@@ -84,4 +84,34 @@ main {
 footer {
     background-color: rgb(92, 90, 90);
     height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.end {
+    color: red;
+    text-align: center;
+    padding-top: 22px;
+    font-size: 15px;
+    height: 100%;
+    width: 100px;
+    background-color: grey;
+}
+
+.foot {
+    color: white;
+    font-size: 35px;
+}
+
+.foot i {
+    margin: 5px 8px 0 5px;
+}
+
+.fa-upload {
+    color: rgb(1, 173, 1);
+}
+
+.fa-chevron-up {
+    font-size: 20px;
 }
