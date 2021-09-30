@@ -9,6 +9,9 @@
 main {
     background-color: black;
     height: calc(100vh - 60px);
+}
+
+#call {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -20,9 +23,6 @@ main {
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 60%;
-    /* debug
-    background-color: rgb(223, 27, 27);*/
-
 }
 
 .img {
@@ -43,6 +43,40 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.option {
+    font-size: 12px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-radius: 8px;
+    margin: 5px 2px;
+    padding: 5px;
+    float: right;
+}
+
+.arrow {
+    color: rgb(197, 197, 197);
+}
+
+.arrow p {
+    font-size: 15px;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.right i {
+    color: rgb(143, 205, 226);
 }
 
 /* footer */
